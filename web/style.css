@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Roboto_m';
+    src: url('fonts/Roboto-Medium.ttf');
+        
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    font-family: 'Roboto_m';
+    background-color: #191d24;
+    flex-direction: column;
+}
+
+#top-bx{
+    width: 100%;
+    height: 60px;
+}
+
+#logo-bx{
+    line-height: 60px;
+    vertical-align: middle;
+    margin-left: 36px;
+    color: #fff;
+}
+
+#logo-bx > div:nth-of-type(1){
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+#logo-bx > div:nth-of-type(2){
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.sub-mid-bx-1{
+    font-size: 30px;
+    display: flex;
+    color: #fff;
+    margin-top: 150px;
+}
+ 
+.sub-mid-bx-2 label{
+    width: 260px;
+    height: 50px;
+    margin-top: 60px;
+    background-color: #0475d0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 50px;
+    font-family: 'Roboto_m';
+}
+.sub-mid-bx-2 label input{
+    display: none;
+}
+.sub-mid-bx-3{
+    display: flex;
+    margin-top: 120px;
+}
+#pre-bx img{
+    height: 104px;
+    width: 140px;
+}
+#pre-bx img{
+    height: 104px;
+    width: 140px;
+}
+
+.text-style{
+    margin-top: 20px;
+    font-size: 12px;
+    height: 25px;
+    color: #fff;
+}
+
+#cur-eff-l{
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 30px;
+    cursor: pointer;
+    visibility: hidden;
+}
+#cur-eff-r{
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+    visibility: hidden;
+}
+/* my styles*/
+
+.flex-bx{
+    display: flex;
+    align-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-center-v{
+    justify-content: center;
+}
+.text-center-v{
+    text-align: center;
+}
